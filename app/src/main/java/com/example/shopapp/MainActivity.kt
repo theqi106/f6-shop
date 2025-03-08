@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.shopapp.presentation.LoginScreenUi
 import com.example.shopapp.presentation.SignUpScreen
 import com.example.shopapp.ui.theme.ShopAppTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ShopAppTheme {
-                SignUpScreen()
+                LoginScreenUi()
             }
         }
     }
